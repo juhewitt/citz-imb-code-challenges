@@ -142,7 +142,6 @@ The following tables will be provided to you via email after marking of your sol
 |                         | * Basic error handling present                                         |
 |                         | * Can handle basic Create (POST), Read (GET), and update (PUT) actions |
 |                         | * Basic swagger documentation of each end-point found at /api-docs     |
-|-------------------------|------------------------------------------------------------------------|
 | Fail/Unacceptable       | * Container does not build, or builds with warnings/errors             |
 |                         | * More than one requirement of Good/Acceptable are not met             |
 
@@ -156,7 +155,6 @@ The following tables will be provided to you via email after marking of your sol
 |                         | * Basic error handling when interacting with API                                                    |
 |                         | * Comments when needed/appropriate                                                                  | 
 |                         | * Utilizes API to perform required Create (POST), Read (GET) and update (PUT) actions when required |
-|-------------------------|-----------------------------------------------------------------------------------------------------|
 | Fail/Unacceptable       | * Container does not build, or builds with warnings/errors                                          |
 |                         | * More than one requirement of Good/Acceptable are not met                                          |
 
@@ -166,7 +164,6 @@ The following tables will be provided to you via email after marking of your sol
 | Pass/Accetable          | * Utilizes Docker/Docker Compose to instantiate local database container                            |
 |                         | * Basic migration script is applied via automation to create basic schema for implemented solution  |
 |                         | * Create, Read and Update actions are reflected in database                                         |
-|-------------------------|-----------------------------------------------------------------------------------------------------|
 | Fail/Unacceptable       | * Any of the requirements of Good/Acceptable are not met                                            |
 
 ### Documentation 
@@ -174,7 +171,6 @@ The following tables will be provided to you via email after marking of your sol
 |-------------------------|-------------------------------------------------------------------------------------------------------------|
 | Pass/Acceptable         | * Utilizes repository root level README.md to document commands to get project running on local environment |
 |                         | * Component based documentation is found within the README.md found within /src/backend or /src/frontend    |
-|-------------------------|-------------------------------------------------------------------------------------------------------------|
 | Fail/Unacceptable       | * No documentation is provided with solution                                                                |
 
 ### BONUS - Quality Assurance
@@ -183,7 +179,6 @@ The following tables will be provided to you via email after marking of your sol
 | Points awarded if       | * (One point) API comes with one or more unit tests and relevant documentation on how to run the suite of tests |
 |                         | * (One points) Frontend contains one or more unit tests that proove that components render correctly, and 
 |                         |    relevant documentation required to run the suite of tests                                                    |
-|-------------------------|-----------------------------------------------------------------------------------------------------------------|
 | Points not awarded if   | * Criteria for either API or Frontend is not met                                                                |
 
 ### BONUS - CI/CD Strategy into Cloud Platform
@@ -191,7 +186,6 @@ The following tables will be provided to you via email after marking of your sol
 |-------------------------|-----------------------------------------------------------------------------------------------------------------|
 | Points awarded if       | * (Two points) Documentation provided with solution outlines a basic CI/CD strategy of how to build, tag push   |
 |                         |   and deploy a container image into a cloud platform. Documentation can include diagrams when required.         |
-|-------------------------|-----------------------------------------------------------------------------------------------------------------|
 | Points not awarded if   | * Documentation is not provided or does not accurately portray actions/technologies required to create a basic  |
 |                         |   CI/CD pipeline                                                                                                |
 
@@ -201,5 +195,4 @@ The following tables will be provided to you via email after marking of your sol
 | Points awarded if       | * (One points) Basic decisions outline development process are documented and placed within the repository to be|
 |                         |   consumed by other developer resources. Documentation is clear and concise, using plain language when possible |
 |                         |   and diagrams if/when necessary                                                                                |
-|-------------------------|-----------------------------------------------------------------------------------------------------------------|
 | Points not awarded if   | * Documentation is not provided or is overly verbose and not easily consumable                                  |
