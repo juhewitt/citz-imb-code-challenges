@@ -1,0 +1,1 @@
+This directory is used to house basic UI/UX mockups related to the development of the Full Stack Frontend Web Application solution.
