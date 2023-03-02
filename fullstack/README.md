@@ -22,9 +22,9 @@ If you are selected to proceed to the interview stage of this competition, you w
 
 ## What to Submit
 
-Firstly, create a github repository using your Github Account. The name of the repository should use the following convention:
+Firstly, create a GitHub repository using your GitHub Account. The name of the repository should use the following convention:
 
-your_first_name-your_last_name_-IS24-full-stack_competition_requisition_number
+your_first_name-your_last_name_-IS24-full_stack_competition_requisition_number
 
 Your working solution should be present on the **main** branch of the repository. Please trim or remove any extraneous branches prior to submission.
 
@@ -47,9 +47,9 @@ provide your Frontend component with basic CRUD actions described in the user st
 
 ## Code Challenge Context
 
-The BC Government Ministry of Citizens' Services Information Management Branch (IMB) is currently trying to catalog current modern web applications in Github, as well as new projects that are coming up in the future. Currently there are 40 projects marked for modernization that need to be cataloged, as well as 3 projects that are either actively being developed or in a maintainence lifecyle.
+The BC Government Ministry of Citizens' Services Information Management Branch (IMB) is currently trying to catalog current modern web applications in GitHub, as well as new projects that are coming up in the future. Currently there are 40 projects marked for modernization that need to be cataloged, as well as 3 projects that are either actively being developed or in a maintainence lifecyle.
 
-Product owners have expressed the desire to communicate to the branch where these projects are housed (Github Repository) as well as the resources (Developers, DevOps, etc.) that are allocated to the project. As IMB is currently driving a common component practice as well, Senior leadership would like to tag or label which projects use common component services like keycloak, gc-notify, redis, rabbitmq for example.
+Product owners have expressed the desire to communicate to the branch where these projects are housed (GitHub Repository) as well as the resources (Developers, DevOps, etc.) that are allocated to the project. As IMB is currently driving a common component practice as well, Senior leadership would like to tag or label which projects use common component services like keycloak, gc-notify, redis, rabbitmq for example.
 
 The user base for this application will include a wide array of technical skills, therefore making this application as simple as possible to display, create and edit information is being stressed by the IMB Senior Leadership Team (SLT).
 
@@ -115,27 +115,24 @@ The following tables will be provided to you via email after marking of your sol
 ### Backend API Component
 | Rating                  | Criteria                                                               |
 |-------------------------|------------------------------------------------------------------------|
-| Pass/Accetable          | * RESTful                                                              |
-|                         | * Container builds without error                                       |
+| Pass/Acceptable          | * RESTful                                                             |
 |                         | * Endpoints return http responses required for given CRUD action       |
 |                         | * Basic error handling present                                         |
 |                         | * Can handle basic Create (POST), Read (GET), and update (PUT) actions |
 |                         | * Basic swagger documentation of each end-point found at /api-docs     |
-| Fail/Unacceptable       | * Container does not build, or builds with warnings/errors             |
-|                         | * More than one requirement of Good/Acceptable are not met             |
+| Fail/Unacceptable       | * More than one requirement of Good/Acceptable are not met             |
 
 ### Frontend Component
 | Rating                  | Criteria                                                                                            |
 |-------------------------|-----------------------------------------------------------------------------------------------------|
-| Pass/Accetable          | * Container builds without error                                                                    |
+| Pass/Acceptable         |                                                                                                     |
 |                         | * Non-monolithic components                                                                         |
 |                         | * Functional or Class based component design based on requirement                                   | 
 |                         | * Appropriate naming of components, elements, classes, etc.                                         |
 |                         | * Basic error handling when interacting with API                                                    |
 |                         | * Comments when needed/appropriate                                                                  | 
 |                         | * Utilizes API to perform required Create (POST), Read (GET) and update (PUT) actions when required |
-| Fail/Unacceptable       | * Container does not build, or builds with warnings/errors                                          |
-|                         | * More than one requirement of Good/Acceptable are not met                                          |
+| Fail/Unacceptable       | * More than one requirement of Good/Acceptable are not met                                          |
 
 ### BONUS - Documentation 
 | Rating                  | Criteria                                                                                                    |
