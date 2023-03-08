@@ -8,14 +8,14 @@ In order to move forward to an interview, you must demonstrate intermediate deve
 
 * Modern Frontend Web Application Framework
 * Modern Backend API Framework 
-* (BONUS) Basic Documentation on how to effortlessly run your solution on a local development machine
+* Basic Documentation on how to effortlessly run your solution components on a local development machine
+* BONUS - Swagger Documentation for all API endpoints created
 
 ### Important!
 Only working solutions will be considered, or solutions that take minimal effort to troubleshoot and resolve errors at build/runtime to move forward in this interview process.
 
 ### Opportunity to Score Additional Points if a Working Solution is Submitted
-1) Documentation present at the root of your solution in the form of a README.md. This documentation should be targetted to an audience of a developer with no
-prior knowledge of your solution, and should give enough detail about how to config and/or run your project after cloning the repository to their local
+1) Swagger Documentation that allows developers to consume all of the API endpoints that you create for your solution
 
 ### Solution Presentation in Interview Stage
 If you are selected to proceed to the interview stage of this competition, you will be asked to demostrate your solution in a Sprint Review style demo (5-10 minutes in length) to a panel of stakeholders. This demo will include all major architectural components developed to create your solution, and the functionality that those components provide in the form of user value.
@@ -30,15 +30,23 @@ Your working solution should be present on the **main** branch of the repository
 
 ### API Component
 
-This component should use a modern framework or language (of your choice) to create API endpoints utilized by the Frontend component and that integrate with the chosen database for the solution.
+This component should use a modern framework or language (of your choice) to create API endpoints utilized by the Frontend component. All endpoints should originate from http://localhost:3000/api
 
-User Authentication/Authorization is not required for the purposes of your solution.
+**Example** A GET endpoint to retrieve a user with a specfic user id
 
-Your API should include at minimum two pieces of functionality:
-* a health endpoint that returns a http 200 reponse indicating your component is healthy
-* basic swagger documentation of any/all endpoints that were developed over the course of your solution
+http://localhost:3000/api/user/:userId
 
-Please make sure that all GET, POST, PUT, PATCH and DELETE endpoints return the proper response codes when utilized for CRUD actions in the frontend web application.
+**User Authentication/Authorization is not required for the purposes of your solution.**
+
+Your API should include at minimum the following functionality:
+* A health endpoint that returns a http 200 reponse indicating your component is healthy
+* All GET, POST, PUT, PATCH and DELETE endpoints return the proper response codes when consumed
+
+**BONUS**
+
+All API endpoints that created in order to develop the required frontend application functionality should be documented via Swagger.
+
+The Swagger documentation should be consumed by anyone building the project on their local workstation at http://localhost:3000/api/api-docs.
 
 ### Frontend Component
 
@@ -115,11 +123,10 @@ The following tables will be provided to you via email after marking of your sol
 ### Backend API Component
 | Rating                  | Criteria                                                               |
 |-------------------------|------------------------------------------------------------------------|
-| Pass/Acceptable          | * RESTful                                                             |
+| Pass/Acceptable         | * RESTful                                                             |
 |                         | * Endpoints return http responses required for given CRUD action       |
 |                         | * Basic error handling present                                         |
 |                         | * Can handle basic Create (POST), Read (GET), and update (PUT) actions |
-|                         | * Basic swagger documentation of each end-point found at /api-docs     |
 | Fail/Unacceptable       | * More than one requirement of Good/Acceptable are not met             |
 
 ### Frontend Component
@@ -134,7 +141,7 @@ The following tables will be provided to you via email after marking of your sol
 |                         | * Utilizes API to perform required Create (POST), Read (GET) and update (PUT) actions when required |
 | Fail/Unacceptable       | * More than one requirement of Good/Acceptable are not met                                          |
 
-### BONUS - Documentation 
+### Documentation 
 | Rating                  | Criteria                                                                                                    |
 |-------------------------|-------------------------------------------------------------------------------------------------------------|
 | Pass/Acceptable         | * Utilizes repository root level README.md to document commands to get project running on local environment |
