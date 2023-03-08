@@ -78,7 +78,7 @@ The user base for this application will include a wide array of technical skills
 
 ## User Stories
 
-### One
+### User Story One
 
 As Berenice, I want to be able to add a project to the list of projects that IMB is developing or maintaining.
 
@@ -90,7 +90,7 @@ As Berenice, I want to be able to add a project to the list of projects that IMB
 * And the application takes me to a basic "Create Project" form
 * And I can click a submit button to save basic product data
 
-### Two
+### User Story Two
 
 As Berenice, I want to see a list of all projects that IMB currently develops or maintains in a dashboard
 
@@ -101,7 +101,7 @@ As Berenice, I want to see a list of all projects that IMB currently develops or
 * I can see a list of all projects within IMB
 * And all relevant information related to each project
 
-### Three
+### User Story Three
 
 As Alan I want to be able to add/edit project related information
 
