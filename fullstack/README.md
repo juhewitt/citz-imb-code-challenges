@@ -12,10 +12,15 @@ In order to move forward to an interview, you must demonstrate intermediate deve
 * BONUS - Swagger Documentation for all API endpoints created
 
 ### Important!
+
+Read the Code Challenge Context, User Stories and Assessment Scoring for this challenge carefully. Development of the functionality described in these sections is the required outcome of this exercise.
+
 Only working solutions will be considered, or solutions that take minimal effort to troubleshoot and resolve errors at build/runtime to move forward in this interview process.
 
+This code challenge does not require a database to accomplish your solution. In memory data storage or mock-data is highly encouraged.
+
 ### Opportunity to Score Additional Points if a Working Solution is Submitted
-1) Swagger Documentation that allows developers to consume all of the API endpoints that you create for your solution
+Swagger Documentation that allows developers to consume all of the API endpoints that you create for your solution
 
 ### Solution Presentation in Interview Stage
 If you are selected to proceed to the interview stage of this competition, you will be asked to demostrate your solution in a Sprint Review style demo (5-10 minutes in length) to a panel of stakeholders. This demo will include all major architectural components developed to create your solution, and the functionality that those components provide in the form of user value.
@@ -41,6 +46,7 @@ http://localhost:3000/api/user/:userId
 Your API should include at minimum the following functionality:
 * A health endpoint that returns a http 200 reponse indicating your component is healthy
 * All GET, POST, PUT, PATCH and DELETE endpoints return the proper response codes when consumed
+* Basic error handling within the endpoints is present when required
 
 **BONUS**
 
@@ -77,34 +83,34 @@ The user base for this application will include a wide array of technical skills
 As Berenice, I want to be able to add a project to the list of projects that IMB is developing or maintaining.
 
 **Acceptance Criteria**
-Given that I am Berenice
-And I am aware of a new development project within IMB
-When I go to the project dashboard
-I can click a button 
-And the application takes me to a basic "Create Project" form
-And I can click a submit button to save basic product data
+* Given that I am Berenice
+* And I am aware of a new development project within IMB
+* When I go to the project dashboard
+* I can click a button 
+* And the application takes me to a basic "Create Project" form
+* And I can click a submit button to save basic product data
 
 ### Two
 
 As Berenice, I want to see a list of all projects that IMB currently develops or maintains in a dashboard
 
 **Acceptance Criteria**
-Given that I am Berenice
-And I am trying to see a list of all projects within IMB
-When I navigate to the application landing page
-I can see a list of all projects within IMB
-And all relevant information related to each project
+* Given that I am Berenice
+* And I am trying to see a list of all projects within IMB
+* When I navigate to the application landing page
+* I can see a list of all projects within IMB
+* And all relevant information related to each project
 
 ### Three
 
 As Alan I want to be able to add/edit project related information
 
 **Acceptance Criteria**
-Given that I am Alan
-And I want edit details related to a specific project
-When I click on an edit button found at the end of a row within a dashboard
-I am redirected to a simple form that displays all of a given projects details
-And allows me to edit and submit those such that they are persistent
+* Given that I am Alan
+* And I want edit details related to a specific project
+* When I click on an edit button found at the end of a row within a dashboard
+* I am redirected to a simple form that displays all of a given projects details
+* And allows me to edit and submit those such that they are persistent
 
 ## Questions
 
@@ -123,27 +129,26 @@ The following tables will be provided to you via email after marking of your sol
 ### Backend API Component
 | Rating                  | Criteria                                                               |
 |-------------------------|------------------------------------------------------------------------|
-| Pass/Acceptable         | * RESTful                                                             |
-|                         | * Endpoints return http responses required for given CRUD action       |
-|                         | * Basic error handling present                                         |
-|                         | * Can handle basic Create (POST), Read (GET), and update (PUT) actions |
-| Fail/Unacceptable       | * More than one requirement of Good/Acceptable are not met             |
+| Pass/Acceptable         | * RESTful                                                              |
+|                         | * Endpoints return http responses required for given CRUD actions      |
+|                         | * Basic commenting of your solution                                    |
+| Fail/Unacceptable       | * More than one requirement of Pass/Acceptable are not met             |
 
 ### Frontend Component
 | Rating                  | Criteria                                                                                            |
 |-------------------------|-----------------------------------------------------------------------------------------------------|
 | Pass/Acceptable         |                                                                                                     |
-|                         | * Non-monolithic components                                                                         |
+|                         | * Microservice component                                                                            |
 |                         | * Functional or Class based component design based on requirement                                   | 
 |                         | * Appropriate naming of components, elements, classes, etc.                                         |
-|                         | * Basic error handling when interacting with API                                                    |
-|                         | * Comments when needed/appropriate                                                                  | 
-|                         | * Utilizes API to perform required Create (POST), Read (GET) and update (PUT) actions when required |
-| Fail/Unacceptable       | * More than one requirement of Good/Acceptable are not met                                          |
+|                         | * Basic error handling when interacting with API (ex// API is not present or healthy)               |
+|                         | * Basic commenting of your solution                                                                 | 
+|                         | * Utilizes API to perform required GET, PUT, POST or DELETE actions when required                   |
+| Fail/Unacceptable       | * More than one requirement of Pass/Acceptable are not met                                          |
 
-### Documentation 
-| Rating                  | Criteria                                                                                                    |
-|-------------------------|-------------------------------------------------------------------------------------------------------------|
-| Pass/Acceptable         | * Utilizes repository root level README.md to document commands to get project running on local environment |
-|                         | * Component based documentation is found within the README.md found within /src/backend or /src/frontend    |
-| Fail/Unacceptable       | * No documentation is provided with solution                                                                |
+### BONUS - API Swagger Documentation
+
+| Rating                  | Criteria                                                                                                      |
+|-------------------------|---------------------------------------------------------------------------------------------------------------|
+| Pass/Acceptable         | * Swagger documentation present for all endpoints developed, and served at http://localhost:3000/api/api-docs |
+| Fail/Unacceptable       | * Swagger Documentation is incomplete or not present                                                          |
